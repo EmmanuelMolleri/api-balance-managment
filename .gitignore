@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/PhoneFinancialManagment/v17
+/src/PhoneFinancialManagment.Api/obj
+/.vs/PhoneFinancialManagment/FileContentIndex
+/src/PhoneFinancialManagment.ApplicationServices/bin/Debug/net7.0
+/src/PhoneFinancialManagment.ApplicationServices/obj/Debug/net7.0
+/src/PhoneFinancialManagment.ApplicationServices/obj
+/src/PhoneFinancialManagment.Domain/bin/Debug/net7.0
+/src/PhoneFinancialManagment.Domain/obj
+/src/PhoneFinancialManagment.Infraestructure/bin/Debug/net7.0
+/src/PhoneFinancialManagment.Infraestructure/obj
+/src/PhoneFinancialManagment.Ioc/bin/Debug/net7.0
+/src/PhoneFinancialManagment.Ioc/obj
