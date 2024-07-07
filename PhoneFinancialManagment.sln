@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.Api", "src\PhoneFinancialManagment.Api\PhoneFinancialManagment.Api.csproj", "{A7453409-2567-40F3-85EC-BC7B3E90514D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.ApplicationServices", "src\PhoneFinancialManagment.ApplicationServices\PhoneFinancialManagment.ApplicationServices.csproj", "{DEF44B89-E090-492A-A24F-ABC01853845A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.Domain", "src\PhoneFinancialManagment.Domain\PhoneFinancialManagment.Domain.csproj", "{4B926A46-49C8-42E3-B418-E966485891C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.Infraestructure", "src\PhoneFinancialManagment.Infraestructure\PhoneFinancialManagment.Infraestructure.csproj", "{E768699C-9AD6-4864-81F4-595D7675D626}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.Ioc", "src\PhoneFinancialManagment.Ioc\PhoneFinancialManagment.Ioc.csproj", "{226BE814-6153-417D-8818-D33A471A98FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7453409-2567-40F3-85EC-BC7B3E90514D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7453409-2567-40F3-85EC-BC7B3E90514D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7453409-2567-40F3-85EC-BC7B3E90514D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7453409-2567-40F3-85EC-BC7B3E90514D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF44B89-E090-492A-A24F-ABC01853845A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF44B89-E090-492A-A24F-ABC01853845A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF44B89-E090-492A-A24F-ABC01853845A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF44B89-E090-492A-A24F-ABC01853845A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B926A46-49C8-42E3-B418-E966485891C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B926A46-49C8-42E3-B418-E966485891C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B926A46-49C8-42E3-B418-E966485891C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B926A46-49C8-42E3-B418-E966485891C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E768699C-9AD6-4864-81F4-595D7675D626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E768699C-9AD6-4864-81F4-595D7675D626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E768699C-9AD6-4864-81F4-595D7675D626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E768699C-9AD6-4864-81F4-595D7675D626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226BE814-6153-417D-8818-D33A471A98FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226BE814-6153-417D-8818-D33A471A98FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226BE814-6153-417D-8818-D33A471A98FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226BE814-6153-417D-8818-D33A471A98FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A3E3452-3962-4A08-8DB4-D92A15788AA1}
+	EndGlobalSection
+EndGlobal
