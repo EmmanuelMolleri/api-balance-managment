@@ -19,6 +19,9 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\PhoneFinancialManagment.ApplicationServices\PhoneFinancialManagment.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\..\PhoneFinancialManagment.Ioc\PhoneFinancialManagment.Ioc.csproj" />
+    <ProjectReference Include="..\PhoneFinancialManagment.ApplicationServices\PhoneFinancialManagment.ApplicationServices.csproj" />
+    <ProjectReference Include="..\PhoneFinancialManagment.Domain\PhoneFinancialManagment.Domain.csproj" />
+    <ProjectReference Include="..\PhoneFinancialManagment.Ioc\PhoneFinancialManagment.Ioc.csproj" />
   </ItemGroup>
 
 </Project>
