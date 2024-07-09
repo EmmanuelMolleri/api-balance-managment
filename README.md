@@ -6,7 +6,7 @@ I had a test that came from a company, so I've decided to publish what I did and
 
 Read and comprehend the following user story and to build a production ready .NET API that
 implements the specified functionality. Your task involves creating a robust backend solution for
-the Edenred application, enabling users to efficiently manage their top-up beneficiaries, explore
+the {{COMPANY}} application, enabling users to efficiently manage their top-up beneficiaries, explore
 available top-up options, and execute top-up transactions for their UAE phone numbers.
 
 At {{COMPANY}}, we provide financial inclusion services for underbanked employees in the

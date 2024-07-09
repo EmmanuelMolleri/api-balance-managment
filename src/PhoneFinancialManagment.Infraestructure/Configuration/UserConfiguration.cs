@@ -35,7 +35,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder
             .Property(table => table.Balance)
             .HasColumnName("Balance")
-            .HasColumnType("DECIMAL")
+            .HasColumnType("Decimal(10, 2)")
             .HasDefaultValue(0);
 
         builder

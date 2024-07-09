@@ -5,12 +5,13 @@ using PhoneFinancialManagment.Infraestructure.Configuration;
 
 namespace PhoneFinancialManagment.Infraestructure.UnitOfWork;
 
-public class PhoneFinancialManagmentContext: DbContext, IUserDomainContext, IPhoneFinancialManagmentContext
+public class PhoneFinancialManagmentContext: DbContext, IUserDomainContext, IPhoneFinancialManagmentContext, IPaymentOptionsContext
 {
     public DbSet<User> Users { get; set; }
     public DbSet<Beneficiaries> Beneficiaries { get; set; }
     public DbSet<UserFinancialHistory> History { get; set; }
     public DbSet<SystemConfiguration> SystemConfiguation { get; set; }
+    public DbSet<PaymentQuantityOptions> PaymentQuantityOptions { get; set; }
 
     public PhoneFinancialManagmentContext(DbContextOptions options) : base(options)
     {

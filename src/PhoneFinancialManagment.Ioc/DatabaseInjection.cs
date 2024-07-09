@@ -22,5 +22,6 @@ public static class DatabaseInjection
 
         services.AddScoped<IUserDomainContext>(serviceProvider => serviceProvider.GetService<PhoneFinancialManagmentContext>());
         services.AddScoped<IPhoneFinancialManagmentContext>(serviceProvider => serviceProvider.GetService<PhoneFinancialManagmentContext>());
+        services.AddScoped<IPaymentOptionsContext>(serviceProvider => serviceProvider.GetService<PhoneFinancialManagmentContext>());
     }
 }
