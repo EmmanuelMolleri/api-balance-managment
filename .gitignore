@@ -14,3 +14,8 @@
 /src/PhoneFinancialManagment.Infraestructure/obj
 /src/PhoneFinancialManagment.Ioc/bin
 /src/PhoneFinancialManagment.Ioc/obj
+/.vs/ProjectEvaluation
+/.vs/PhoneFinancialManagment/DesignTimeBuild
+/.vs/PhoneFinancialManagment/v16/.suo
+/.vs/PhoneFinancialManagment/v17/.suo
+/src/PhoneFinancialManagment.Api/bin/Debug/net7.0
