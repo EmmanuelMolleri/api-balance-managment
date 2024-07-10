@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneFinancialManagment.Ioc", "src\PhoneFinancialManagment.Ioc\PhoneFinancialManagment.Ioc.csproj", "{226BE814-6153-417D-8818-D33A471A98FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneFinancialManagment.DomainRules.Test", "PhoneFinancialManagment.DomainRules.Test\PhoneFinancialManagment.DomainRules.Test.csproj", "{C3B705E0-E26E-4F2B-8A30-64787E908AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{226BE814-6153-417D-8818-D33A471A98FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{226BE814-6153-417D-8818-D33A471A98FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{226BE814-6153-417D-8818-D33A471A98FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B705E0-E26E-4F2B-8A30-64787E908AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B705E0-E26E-4F2B-8A30-64787E908AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B705E0-E26E-4F2B-8A30-64787E908AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B705E0-E26E-4F2B-8A30-64787E908AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

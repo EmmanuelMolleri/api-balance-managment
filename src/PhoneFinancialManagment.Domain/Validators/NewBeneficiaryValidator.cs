@@ -20,24 +20,19 @@ public class NewBeneficiaryValidator : AbstractValidator<NewBenefeciaryDto>
                 }
             });
 
-        RuleFor(x => x.Name)
-            .Custom((userName, validationContext) =>
-            {
-                if (systemConfiguration.MaxBeneficiariesNicknameChars > userName.Length)
-                {
-                    validationContext.AddFailure($"Your beneficiary can't have more than {systemConfiguration.MaxBeneficiariesNicknameChars} characters.");
-                }
-            });
+        RuleFor(x => x.Name.Length)
+            .LessThan(systemConfiguration.MaxBeneficiariesNicknameChars)
+            .WithMessage($"Your beneficiary can't have more than {systemConfiguration.MaxBeneficiariesNicknameChars} characters.");
 
         RuleFor(x => x.Balance)
-            .LessThan(0)
+            .GreaterThan(0)
             .WithMessage("You can't define a negative balance.");
 
         RuleFor(x => new { x.Balance, x.UserId })
             .Custom((newBeneficiary, validationContext) =>
             {
                 var mainUser = context.Users.First(x => x.UserId == newBeneficiary.UserId);
-                if (systemConfiguration.MaxAmountOfBalanceOfAllBeneficiaries > (context.Beneficiaries.Include(x => x.Beneficiary).Where(x => x.UserId == newBeneficiary.UserId).Sum(x => x.Beneficiary.Balance) + newBeneficiary.Balance))
+                if (systemConfiguration.MaxAmountOfBalanceOfAllBeneficiaries < (context.Beneficiaries.Include(x => x.Beneficiary).Where(x => x.UserId == newBeneficiary.UserId).Sum(x => x.Beneficiary.Balance) + newBeneficiary.Balance))
                 {
                     validationContext.AddFailure("The balance that your beneficiary set, exceeds the limit of all your beneficiaries limit.");
                 }
