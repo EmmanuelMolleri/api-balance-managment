@@ -19,3 +19,5 @@
 /.vs/PhoneFinancialManagment/v16/.suo
 /.vs/PhoneFinancialManagment/v17/.suo
 /src/PhoneFinancialManagment.Api/bin/Debug/net7.0
+/PhoneFinancialManagment.DomainRules.Test/bin/Debug/net7.0
+/PhoneFinancialManagment.DomainRules.Test/obj
